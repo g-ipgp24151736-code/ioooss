@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RACE TO LEARN | Navigasi</title>
+<style>
+:root{
+  --bg:#090b10;--panel:#141821;--panel2:#1c222e;--red:#e32736;
+  --lime:#c8f169;--white:#f5f6f8;--muted:#aab2c0;--line:#303846;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;min-height:100vh;color:var(--white);
+  font-family:Arial,Helvetica,sans-serif;
+  background:radial-gradient(circle at 85% 5%,#34202a 0,transparent 30%),
+             linear-gradient(145deg,#080a0f,#111722 65%,#090b10);
+}
+.wrap{max-width:1050px;margin:auto;padding:28px 18px 42px}
+.topline{display:flex;align-items:center;justify-content:space-between;gap:12px;
+  border-bottom:1px solid var(--line);padding-bottom:16px}
+.brand{font-weight:900;letter-spacing:2px;font-size:clamp(20px,4vw,30px)}
+.brand span{color:var(--red)}
+.flag{font-size:12px;color:var(--lime);letter-spacing:2px;font-weight:bold}
+.hero{padding:34px 0 22px}
+.eyebrow{color:var(--lime);font-size:12px;font-weight:bold;letter-spacing:3px}
+h1{font-size:clamp(28px,6vw,48px);line-height:1.04;margin:10px 0}
+.sub{color:var(--muted);line-height:1.6;max-width:650px}
+.navbox{background:rgba(20,24,33,.94);border:1px solid var(--line);
+  border-radius:18px;padding:20px;box-shadow:0 18px 55px #0007}
+.navhead{display:flex;justify-content:space-between;align-items:center;gap:12px;
+  margin-bottom:16px;flex-wrap:wrap}
+.navhead h2{font-size:18px;margin:0}
+.pill{font-size:11px;color:var(--lime);border:1px solid #647c39;
+  border-radius:30px;padding:6px 10px;letter-spacing:1px}
+.group-title{font-size:12px;color:var(--muted);letter-spacing:2px;
+  text-transform:uppercase;margin:18px 0 10px}
+.links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+a.link{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--white);
+  background:var(--panel2);border:1px solid var(--line);border-radius:12px;
+  padding:15px 14px;min-height:66px;transition:.18s}
+a.link:hover{border-color:var(--red);transform:translateY(-2px);background:#252c39}
+.num{display:grid;place-items:center;flex:0 0 34px;height:34px;border-radius:9px;
+  background:#303846;color:var(--lime);font-weight:900;font-size:13px}
+.link strong{font-size:15px;display:block}
+.link small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
+.arrow{margin-left:auto;color:var(--red);font-size:20px}
+.home{border-color:#8a303a!important;background:linear-gradient(110deg,#3a1820,#20232d)!important}
+.home .num{background:var(--red);color:white}
+.footer{color:#7f8998;text-align:center;font-size:11px;margin-top:20px;line-height:1.6}
+@media(max-width:620px){.links{grid-template-columns:1fr}.wrap{padding:20px 14px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topline">
+    <div class="brand">RACE <span>TO</span> LEARN</div>
+    <div class="flag">LEARN • PRACTISE • WIN</div>
+  </div>
+  <header class="hero">
+    <div class="eyebrow">RACE CONTROL / NAVIGATION</div>
+    <h1>Choose Your<br>Learning Track.</h1>
+    <p class="sub">Selamat datang ke pusat navigasi RACE TO LEARN. Pilih halaman pembelajaran di bawah untuk meneruskan perlumbaan ilmu anda.</p>
+  </header>
+  <section class="navbox">
+    <div class="navhead">
+      <h2>Menu Utama</h2>
+      <span class="pill">7 DESTINASI PEMBELAJARAN</span>
+    </div>
+    <div class="group-title">Home</div>
+    <div class="links">
+      <a class="link home" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/" target="_top" rel="noopener">
+        <span class="num">00</span><span><strong>Home</strong><small>Kembali ke halaman utama</small></span><span class="arrow">↗</span>
+      </a>
+    </div>
+    <div class="group-title">Maklumat Pembelajaran</div>
+    <div class="links">
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/video-rangasangan" target="_top" rel="noopener">
+        <span class="num">01</span><span><strong>Video Rangsangan</strong><small>Mulakan dengan rangsangan visual</small></span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/model-assure" target="_top" rel="noopener">
+        <span class="num">02</span><span><strong>Model ASSURE</strong><small>Kerangka perancangan pengajaran</small></span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/pit-lane-ilmu" target="_top" rel="noopener">
+        <span class="num">03</span><span><strong>Pit Lane Ilmu</strong><small>Nota dan pengukuhan konsep</small></span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/race-to-learn" target="_top" rel="noopener">
+        <span class="num">04</span><span><strong>RACE TO LEARN</strong><small>Teruskan misi pembelajaran</small></span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/pengayaan-dan-pentaksiran" target="_top" rel="noopener">
+        <span class="num">05</span><span><strong>Pengayaan dan Pentaksiran</strong><small>Uji dan nilai penguasaan</small></span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/maklum-balas-rakan" target="_top" rel="noopener">
+        <span class="num">06</span><span><strong>Maklum Balas Rakan</strong><small>Kongsi pandangan dan refleksi</small></span><span class="arrow">↗</span>
+      </a>
+      <a class="link" href="https://sites.google.com/moe-dl.edu.my/racetolearn44/home/rujukan" target="_top" rel="noopener">
+        <span class="num">07</span><span><strong>Rujukan</strong><small>Sumber dan bahan sokongan</small></span><span class="arrow">↗</span>
+      </a>
+    </div>
+  </section>
+  <div class="footer">RACE TO LEARN • Setiap klik membawa anda ke destinasi pembelajaran yang dipilih.</div>
+</div>
+</body>
+</html>
